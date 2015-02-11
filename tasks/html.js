@@ -56,7 +56,7 @@ var deploy = new PromiseTask()
         if (env === 'prod' && resultsArray[0] === 'failed') {
             console.log('Test failed, not deploying to ' + env);
         } else {
-            console.log('Deploying to ' + env);
+            console.log('Deployed to ' + env);
         }
     });
 
