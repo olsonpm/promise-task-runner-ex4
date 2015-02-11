@@ -1,0 +1,26 @@
+{
+  "name": "promise-task-runner-ex2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "bluebird": "^2.9.8",
+    "fs-bluebird": "^0.1.1",
+    "promise-task-runner": "0.0.1",
+    "rimraf": "^2.2.8"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/olsonpm/promise-task-runner-ex2.git"
+  },
+  "author": "Phil Olson <philip.olson@protonmail.ch> (https://github.com/olsonpm)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/olsonpm/promise-task-runner-ex2/issues"
+  },
+  "homepage": "https://github.com/olsonpm/promise-task-runner-ex2"
+}
