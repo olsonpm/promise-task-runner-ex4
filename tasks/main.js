@@ -40,12 +40,8 @@ function t2() {
 var test = new PromiseTask()
     .id('test')
     .task(function() {
-        var self = this;
-        return bRimraf('dev')
-            .then(function() {
-                var testToRun = self.globalArgs().testToRun;
-                return myTests[testToRun]();
-            });
+        var testToRun = this.globalArgs().testToRun;
+        return myTests[testToRun]();
     });
 
 var deploy = new PromiseTask()
