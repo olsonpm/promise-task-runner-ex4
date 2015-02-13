@@ -6,11 +6,7 @@
 
 var ptr = require('promise-task-runner')
     , PromiseTask = ptr.PromiseTask
-    , PromiseTaskContainer = ptr.PromiseTaskContainer
-    , gulp = require('gulp')
-    , bPromise = require('bluebird')
-    , bFs = require('fs-bluebird')
-    , bRimraf = bPromise.promisify(require('rimraf'));
+    , PromiseTaskContainer = ptr.PromiseTaskContainer;
 
 
 //------//
