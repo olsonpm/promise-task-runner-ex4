@@ -4,10 +4,7 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
-    "bluebird": "^2.9.8",
-    "fs-bluebird": "^0.1.1",
-    "promise-task-runner": "0.0.1",
-    "rimraf": "^2.2.8"
+    "promise-task-runner": "0.0.1"
   },
   "devDependencies": {},
   "scripts": {
